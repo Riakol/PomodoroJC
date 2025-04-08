@@ -65,45 +65,7 @@ fun MainScreen() {
                 )
             }
         }
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(10.dp),
-            horizontalArrangement = Arrangement.SpaceAround
-
-        ) {
-            IconButton(
-                onClick = {}
-            ) {
-                Icon(
-                    painter = painterResource(R.drawable.ic_timer),
-                    contentDescription = "Timer",
-                    modifier = Modifier
-                        .size(80.dp)
-                )
-            }
-            IconButton(
-                onClick = {}
-            ) {
-                Icon(
-                    painter = painterResource(R.drawable.ic_calendar),
-                    contentDescription = "Calendar",
-                    modifier = Modifier
-                        .size(80.dp)
-                )
-            }
-            IconButton(
-                onClick = {}
-            ) {
-                Icon(
-                    painter = painterResource(R.drawable.ic_settings),
-                    contentDescription = "Settings",
-                    modifier = Modifier
-                        .size(80.dp)
-                )
-            }
-        }
-
+        BottomPanel()
     }
 }
 
